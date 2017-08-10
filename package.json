@@ -1,0 +1,23 @@
+{
+  "name": "stock-directory",
+  "version": "1.0.0",
+  "description": "get current stock price from yahoo public api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "finance",
+    "yahoo",
+    "stock",
+    "trade",
+    "trading",
+    "profit"
+  ],
+  "author": "Shivanu bhateja",
+  "license": "ISC",
+  "dependencies": {
+    "promise": "^8.0.1",
+    "request": "^2.81.0"
+  }
+}
