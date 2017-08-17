@@ -15,8 +15,11 @@ npm install stock-directory
 >```	
 >{ body: body, statusCode: response.statusCode  }
 >```
->where body contains required data. 
+>where `body` contains required data.
+>
 >`Else if` there is some error in fetching data a rejected promise is returned in format - 
 >```
->{ error: error, statusCode: response.statusCode }, where error contains the cause of error.
+>{ error: error, statusCode: response.statusCode },
 >```
+>where `error` contains the cause of error.
+

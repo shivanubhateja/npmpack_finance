@@ -1,6 +1,6 @@
 {
   "name": "stock-directory",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "get current stock price from yahoo public api",
   "main": "index.js",
   "scripts": {
