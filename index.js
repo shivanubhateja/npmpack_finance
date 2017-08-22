@@ -22,3 +22,15 @@ exports.getDetailsDailyTimeSeries = function (symbol) {
         })
     });
 };
+
+exports.getSimpleMovingAdjustedValues = function(symbol, interval, time_period, series_type){
+    return new Promise(function(resolve, reject){
+        request('https://www.alphavantage.co/query?function=SMA&symbol=' + symbol + '&interval=' + interval + 'min&time_period='+time_period+ '&series_type='+series_type+ '&apikey=W77LD4FPC2I3Z1X7', function(error, response, body){
+            if (error) {
+                reject({ error: error, statusCode: response.statusCode });
+            } else {
+                resolve({ body: body, statusCode: response.statusCode });
+            }
+        })
+    })
+}

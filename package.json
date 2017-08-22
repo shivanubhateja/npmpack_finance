@@ -1,14 +1,13 @@
 {
   "name": "stock-directory",
-  "version": "1.1.1",
-  "description": "get current stock price from yahoo public api",
+  "version": "1.2.4",
+  "description": "get current stocks details",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "finance",
-    "yahoo",
     "stock",
     "trade",
     "trading",
